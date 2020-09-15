@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-const HolaMundoStyles = styled.div`
+const TickerBarStyles = styled.div`
   background: magenta;
 `;
 
-export default HolaMundoStyles;
+export default TickerBarStyles;
