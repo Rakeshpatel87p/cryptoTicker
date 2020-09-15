@@ -1,8 +1,8 @@
-# React Custom Toolchain
+# CryptoTicker
 
-A base for quickly spinning up react components written in Typescript.
+Keep track of changes to Crypto Prices with this ticker.
 
-To maintain standards, `stylint` and `React Testing Library` are also part of the toolkit.
+React toolchain forked from: https://github.com/Rakeshpatel87p/react-custom-toolchain
 
 # Commands
 
