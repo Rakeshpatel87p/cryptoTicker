@@ -11,7 +11,10 @@ module.exports = {
       {
         test: /\.(tsx|jsx)$/,
         enforce: "pre",
-        use: ["babel-loader", "tslint-loader"],
+        use: [
+          "babel-loader",
+          { loader: "tslint-loader", options: { typeCheck: true } },
+        ],
         exclude: /node_modules/,
       },
     ],
