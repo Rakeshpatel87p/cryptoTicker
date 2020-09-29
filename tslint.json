@@ -1,13 +1,5 @@
 {
   "extends": ["tslint-immutable"],
-  "compilerOptions": {
-    "outDir": "./dist/",
-    "noImplicitAny": true,
-    "module": "es6",
-    "target": "es5",
-    "jsx": "react",
-    "allowJs": true
-  },
   "typeCheck": true,
   "rules": {
     "adjacent-overload-signatures": true,
@@ -101,7 +93,6 @@
     "no-sparse-arrays": true,
     "no-string-literal": true,
     "no-string-throw": true,
-    "no-submodule-imports": true,
     "no-switch-case-fall-through": true,
     "no-tautology-expression": true,
     "no-this-assignment": true,
