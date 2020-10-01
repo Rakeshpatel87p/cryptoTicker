@@ -6,7 +6,9 @@
   "scripts": {
     "bundle": "webpack --mode development",
     "start": "webpack-dev-server --mode development",
+    "dev": "webpack-dev-server --https --env.api='https://localhost:5000'",
     "lint:css": "stylelint './src/**/*.js'",
+    "proxy": "http://localhost:5000",
     "test": "jest"
   },
   "author": "Rakesh Patel",
